@@ -65,7 +65,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-[#025a4e]">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img
           src="/images/ilustrador-about.png"
@@ -74,10 +74,10 @@ const AboutSection = () => {
           alt="Ilustração sobre mim"
         />
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-          <h2 className="text-5xl font-extrabold text-white mb-4">Sobre mim ––</h2>
-          <p className="text-[#c1c4ce] text-base sm:text-lg mb-7 lg:text-xl font-extralight">
-            Eu atualmente estou estudando <a className="underline decoration-yellow-500">Sistemas de Informação</a> e estou no terceiro semestre.
-            Tenho pouca experiência profissional como um programador atuando mais como freelancer <a className="underline decoration-yellow-500">Como Desenvolvedor Python</a> e melhorando meus conhecimentos <a className="underline decoration-yellow-500">Node.JS, React, Next, JavaScript e PHP</a>. Pretendo me especializar como Full-Stack por mais que eu já tenha tentado arriscar na área de dados no passado.
+          <h2 className="text-7xl font-extrabold text-[#025a4e] mb-4">Sobre mim ––</h2>
+          <p className="text-[#025a4e] text-base sm:text-lg mb-7 lg:text-3xl font-extralight">
+            Eu atualmente estou estudando <a className="underline decoration-[#194e1c]">Sistemas de Informação</a> e estou no terceiro semestre.
+            Tenho pouca experiência profissional como um programador atuando mais como freelancer <a className="underline decoration-[#194e1c]">Como Desenvolvedor Python</a> e melhorando meus conhecimentos <a className="underline decoration-[#194e1c]">Node.JS, React, Next, JavaScript e PHP</a>. Pretendo me especializar como Full-Stack por mais que eu já tenha tentado arriscar na área de dados no passado.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton 
@@ -102,7 +102,7 @@ const AboutSection = () => {
               Experiências {" "}
             </TabButton>
           </div>
-          <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
+          <div className='mt-4'>{TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
       </div>
     </section>
