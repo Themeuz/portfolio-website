@@ -7,28 +7,28 @@ const Footer = () => {
       <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center space-x-8 mb-10">
           <a href="https://github.com/Themeuz" className="icon-link">
-            <Image
+            <img
               src="/images/github.svg"
               alt="GitHub"
               className="icon w-8 h-8"
             />
           </a>
           <a href="https://x.com/thameusis" className="icon-link">
-            <Image
+            <img
               src="/images/twitter.svg"
               alt="Twitter"
               className="icon w-8 h-8"
             />
           </a>
           <a href="https://br.linkedin.com/in/matheus-bicego-tech/pt" className="icon-link">
-            <Image
+            <img
               src="/images/linkedin.svg"
               alt="LinkedIn"
               className="icon w-8 h-8"
             />
           </a>
           <a href="mailto:matheusbicegodata@gmail.com" className="icon-link">
-            <Image
+            <img
               src="/images/gmail.svg"
               alt="Email"
               className="icon w-8 h-8"

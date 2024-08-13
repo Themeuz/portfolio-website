@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
 
 
 const HeroSection = () => {
@@ -27,7 +28,7 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2 order-1 md:order-2 flex flex-col gap-8 items-end">
           <div className="relative w-full">
-            <img
+            <Image
               className='w-full h-auto z-10'
               src="/images/DrawKit Vector Illustration Project Manager (16).png"
               alt="Project Manager"
