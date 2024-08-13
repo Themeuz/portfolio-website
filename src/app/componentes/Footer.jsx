@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -6,29 +7,29 @@ const Footer = () => {
       <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center space-x-8 mb-10">
           <a href="https://github.com/Themeuz" className="icon-link">
-            <img
-              src="https://cdn.discordapp.com/attachments/899049208324161548/1255647822578188328/github.png"
+            <Image
+              src="/images/github.svg"
               alt="GitHub"
               className="icon w-8 h-8"
             />
           </a>
           <a href="https://x.com/thameusis" className="icon-link">
-            <img
-              src="https://cdn.discordapp.com/attachments/899049208324161548/1255647822804680754/twitter.png"
+            <Image
+              src="/images/twitter.svg"
               alt="Twitter"
               className="icon w-8 h-8"
             />
           </a>
           <a href="https://br.linkedin.com/in/matheus-bicego-tech/pt" className="icon-link">
-            <img
-              src="https://cdn.discordapp.com/attachments/899049208324161548/1255647823928754246/linkedin.png"
+            <Image
+              src="/images/linkedin.svg"
               alt="LinkedIn"
               className="icon w-8 h-8"
             />
           </a>
           <a href="mailto:matheusbicegodata@gmail.com" className="icon-link">
-            <img
-              src="https://cdn.discordapp.com/attachments/899049208324161548/1255647823458730056/mail.png"
+            <Image
+              src="/images/gmail.svg"
               alt="Email"
               className="icon w-8 h-8"
             />

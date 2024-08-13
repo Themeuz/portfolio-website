@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useTransition } from 'react';
-import Image from 'next/image';
 import TabButton from './TabButton';
 
 const TAB_DATA = [
@@ -65,8 +64,8 @@ const AboutSection = () => {
   return (
     <section className="text-[#025a4e]">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          src="/images/ilustrador-about.png"
+        <img
+          src="/images/DrawKit Vector Illustration Project Manager (18).png"
           width={500}
           height={500}
           alt="Ilustração sobre mim"

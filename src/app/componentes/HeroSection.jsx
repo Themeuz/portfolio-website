@@ -46,8 +46,8 @@ const HeroSection = () => {
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full w-[400px] sm:w-[500px] lg:w-[690px]">
-            <img 
-              src="/images/portfolio-img.png"
+            <Image 
+              src="/images/portfolio-image-init.png"
               alt="Portfolio"
               layout="responsive"
               width={690}

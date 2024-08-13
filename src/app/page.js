@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./componentes/HeroSection";
 import Navbar from "./componentes/Navbar";
 import AboutSection from "./componentes/AboutSection";
@@ -9,7 +8,7 @@ import Know from "./componentes/Know";
 
 export default function Home() {
   return (
-      <main className="flex min-h-screen flex-col bg-gradient-to-l from-[#e7e4b5] to-[#ede7de]">
+      <main className="flex min-h-screen flex-row bg-gradient-to-l from-[#e7e4b5] to-[#ede7de]">
         <Navbar/>
       <div className="container mt-32 mx-auto px-12 py-4">
         <HeroSection/>
