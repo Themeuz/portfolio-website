@@ -18,9 +18,7 @@ const HeroSection = () => {
               sequence={[
                 'Full Stack Development',
                 1000,
-                'JavaScript Development',
-                1000,
-                'System of Information',
+                'Análise e Desenvolvimento de Sistemas',
                 1000,
               ]}
               wrapper="span"
@@ -37,7 +35,7 @@ const HeroSection = () => {
                 Contato
               </button>
             </a>
-            <a href="https://drive.google.com/file/d/1wrR6N0s6-Mw5Cj21E2h7iyrW9MhNbBiC/view">
+            <a href="www.linkedin.com/in/matheus-bicego-tech">
               <button className='text-xl px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-state-800 text-[#025a4e] border hover:border-green-900 mt-3'>
                 Currículo
               </button>

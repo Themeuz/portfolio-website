@@ -27,7 +27,7 @@ const NavBar = () => {
     <nav className='fixed top-4 left-1/2 transform -translate-x-1/2 bg-[#f2f1da] bg-opacity-80 rounded-full z-70 px-8 py-6'>
       <div className='flex items-center justify-between'>
         <Link href="/" className="text-2xl md:text-4xl text-[#536d66] font-semibold">
-          {/* COLOCAR A LOGO AQUI!! */}
+          {/* FUTURA LOGO AQUI!! */}
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

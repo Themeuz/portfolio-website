@@ -3,15 +3,10 @@ import Image from 'next/image';
 
 const languages = [
   { name: 'JavaScript', src: '/images/javascript.svg' },
-  { name: 'React', src: '/images/react.svg' },
+  { name: 'PHP', src: '/images/php.png'},
   { name: 'Python', src: '/images/python.svg' },
-  { name: 'Node.js', src: '/images/node.svg' },
-  { name: 'Typescript', src: '/images/typescript.svg' },
-  { name: 'C#', src: '/images/c.svg' },
-  { name: 'ViteJS', src: '/images/vitejs.svg' },
   { name: 'HTML 5', src: '/images/html.svg' },
   { name: 'CSS 3', src: '/images/css.svg' },
-  { name: 'Tailwind', src: '/images/css2.svg' },
 
 ];
 
