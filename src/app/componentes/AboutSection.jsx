@@ -76,8 +76,8 @@ const AboutSection = () => {
             Sobre mim ––
           </h2>
           <p className="text-[#025a4e] text-base sm:text-lg mb-7 lg:text-3xl font-extralight">
-            Eu atualmente estou estudando <a className="underline decoration-[#194e1c]">Sistemas de Informação</a> e estou no terceiro semestre.
-            Tenho pouca experiência profissional como programador, atuando mais como freelancer <a className="underline decoration-[#194e1c]">Desenvolvedor Python</a> e melhorando meus conhecimentos em <a className="underline decoration-[#194e1c]">Node.js, React, Next.js, JavaScript e PHP</a>. Pretendo me especializar como Full-Stack, embora já tenha tentado a área de dados no passado.
+            Eu atualmente estou estudando <a className="underline decoration-[#194e1c]">Análise e Desenvolvimento de Sistemas</a> e estou no segundo semestre.
+            Tenho pouca experiência profissional como programador, atuando mais como freelancer <a className="underline decoration-[#194e1c]">Desenvolvedor Python</a> e melhorando meus conhecimentos em <a className="underline decoration-[#194e1c]">JavaScript e PHP</a>. Pretendo me especializar como Full-Stack, embora já tenha tentado a área de dados no passado.
           </p>
           <div className="flex flex-row justify-start mt-8 space-x-4">
             {TAB_DATA.map((tabData) => (
