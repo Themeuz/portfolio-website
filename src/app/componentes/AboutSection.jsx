@@ -11,12 +11,8 @@ const TAB_DATA = [
       <ul className='list-disc pl-5'>
         <li>Python</li>
         <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>React</li>
+        <li>PHP</li>
         <li>HTML/CSS</li>
-        <li>Tailwind CSS</li>
-        <li>MongoDB</li>
-        <li>TypeScript</li>
         <li>Git/GitHub</li>
       </ul>
     )
@@ -26,16 +22,17 @@ const TAB_DATA = [
     id: "certificados",
     content: (
       <ul className='list-disc pl-5'>
-        <li>Sistemas de Informação - 3/8</li>
+        <li>Análise e Desenvolvimento de Sistemas - 2/4</li>
         <li>Transformando Dados em Informação</li>
         <li>Excel Avançado</li>
         <li>Power BI para Dados</li>
+        <li>PHP - Alura</li>
         <li>Python Avançado</li>
         <li>Full Stack Devs VIVO Bootcamp</li>
         <li>JavaScript Orientado a Objetos</li>
-        <li>Ruby Performático</li>
-        <li>JQuery Limpo</li>
-        <li>Boas Práticas com C#</li>
+        <li>IT Support - Coursera</li>
+        <li>UX Design - Coursera</li>
+        <li>Computer Science - CodeCademy</li>
       </ul>
     )
   },
@@ -46,7 +43,9 @@ const TAB_DATA = [
       <ul className='list-disc pl-5'>
         <li>Desenvolvedor Python – Freelancer</li>
         <li>Desenvolvedor Front-End – Freelancer</li>
-        <li>Desenvolvedor Python – Freelancer</li>
+        <li>Desenvolvedor Python/Discord – Freelancer</li>
+        <li>Desenvolvedor Web – Freelancer</li>
+        <li>Desenvolvedor JavaScript – Projeto</li>
       </ul>
     )
   }

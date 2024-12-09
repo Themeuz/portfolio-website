@@ -18,7 +18,7 @@ const HeroSection = () => {
             Automatizar tarefas, codificar produtos e programas de fácil acesso, era tudo que eu aprendi estudando sobre dados resolver problemas, porém de uma forma que eu entendia com muita facilidade. Carreguei e mantive o frescor na minha mente para produzir e até mesmo inventar, criar ideias de projetos surpreendentes dos quais um dia gostaria muito de poder exercer, quem sabe.
           </p>
           <p className="text-lg md:text-2xl lg:text-3xl text-[#025e4e] mt-8">
-            Atualmente, estou focado em ser um Full Stack JavaScript, mesmo tendo boas práticas com Python, me identifiquei bastante com o JS, sobretudo com Node, React, NextJS.
+            Atualmente, estou focado em ser um Full Stack, mesmo tendo boas práticas com Python, me identifiquei bastante com o JS, sobretudo com o PHP.
           </p>
           <div className="flex space-x-4 mt-8">
             <button className="px-8 py-3 bg-[#185541] hover:bg-[#154435] text-[#ede7de] font-bold rounded-md">
